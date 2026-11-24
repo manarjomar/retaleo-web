@@ -1,0 +1,22 @@
+:root{--antracita:#2A2E33;--oro:#C49A5C;--oro-oscuro:#8A6A3A;--marmol:#E6E4E0;--fondo:#FAF9F7;--texto:#1C1B1F;--suave:#5C5F64;--borde:#E2DED8}
+@media (prefers-color-scheme:dark){:root{--fondo:#17191C;--texto:#ECEAE6;--suave:#A9ABB0;--borde:#33363B;--oro-oscuro:#D9B47C}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fondo);color:var(--texto);font:16px/1.6 "Montserrat",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{background:var(--antracita);color:#fff}
+.cab{max-width:760px;margin:0 auto;padding:20px 16px;display:flex;align-items:center;gap:14px}
+.cab img{width:48px;height:48px}
+.cab a{color:#fff;text-decoration:none;font-size:24px;font-weight:600;letter-spacing:.5px}
+.cab small{display:block;color:var(--oro);font-size:13px;font-weight:500}
+main{max-width:760px;margin:0 auto;padding:24px 16px 48px}
+h1{font-size:28px;line-height:1.25;margin:8px 0 4px}
+h2{font-size:19px;margin:32px 0 8px;color:var(--oro-oscuro)}
+p,li{color:var(--texto)}
+.fecha{color:var(--suave);font-size:14px}
+.nota{border-left:4px solid var(--oro);background:color-mix(in srgb,var(--oro) 12%,transparent);padding:12px 16px;border-radius:8px}
+a{color:var(--oro-oscuro)}
+ul{padding-left:22px}
+.botones{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}
+.boton{display:inline-block;background:var(--antracita);color:#fff;text-decoration:none;padding:12px 18px;border-radius:12px;font-weight:600}
+.boton.claro{background:transparent;color:var(--texto);border:1.5px solid var(--borde)}
+footer{border-top:1px solid var(--borde);color:var(--suave);font-size:14px}
+footer div{max-width:760px;margin:0 auto;padding:20px 16px}
